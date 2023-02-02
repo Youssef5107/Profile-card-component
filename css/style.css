@@ -19,3 +19,26 @@
 	font-family: light;
 	src: url(../fonts/Kumbh_Sans/static/KumbhSans-Light.ttf);
 }
+
+body {
+	/* background-image: url(../images/bg-pattern-bottom.svg); */
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+main {
+	height: 500px;
+	max-width: 500px;
+	width: 100%;
+	box-shadow: 12px 7px 20px 6px rgb(57 75 84 / 8%);
+	border-radius: 15px;
+}
+
+.main-card-img {
+	max-width: 500px;
+	width: 100%;
+	border-radius: 15px 15px 0px 0px;
+}
