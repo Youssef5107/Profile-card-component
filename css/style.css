@@ -50,6 +50,24 @@ main {
 	border-radius: 15px 15px 0px 0px;
 }
 
+.user-photo-area {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	bottom: 65px;
+}
+
+.user-photo {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid white;
+}
+
+.user-info {
+	display: flex;
+}
+
 .profile-info {
 	display: flex;
 	margin: 30px auto;
